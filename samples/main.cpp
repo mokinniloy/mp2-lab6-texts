@@ -5,10 +5,14 @@
 //
 
 #include <iostream>
-
+#include <fstream>
+#include <ttext.h>
 using namespace std;
 
-int main()
-{
-  return 0;
+int main() {
+	TText text;
+	text.Read("C:\\Users\\aeremina\\Documents\\Labs\\mp2-lab6-texts\\samples\\sample.txt");
+	text.Print();
+
+    return 0;
 }
